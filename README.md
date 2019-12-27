@@ -213,37 +213,70 @@ Size 239677, 29
 Column names and Dtypes
 
 incident_id                      int64
+
 date                            object
+
 state                           object
+
 city_or_county                  object
+
 address                         object
+
 n_killed                         int64
+
 n_injured                        int64
+
 incident_url                    object
+
 source_url                      object
+
 incident_url_fields_missing       bool
+
 congressional_district         float64
+
 gun_stolen                      object
+
 gun_type                        object
+
 incident_characteristics        object
+
 latitude                       float64
+
 location_description            object
+
 longitude                      float64
+
 n_guns_involved                float64
+
 notes                           object
+
 participant_age                 object
+
 participant_age_group           object
+
 participant_gender              object
+
 participant_name                object
+
 participant_relationship        object
+
 participant_status              object
+
 participant_type                object
+
 sources                         object
+
 state_house_district           float64
+
 state_senate_district          float64
+
 dtype: object
 
  Questions
+ 
 Which congressional district has the most shootings
+
 Can we predict how many killed / injured based on the location
+
 Is there a relationship between week day and shooting
+
